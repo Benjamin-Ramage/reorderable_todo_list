@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       create: (context) => TaskData(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: "Ben's Grocery List",
+        title: "Ben's Todo List",
         theme: theme,
         home: const TasksScreen(),
       ),
